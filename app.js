@@ -30,11 +30,11 @@ var isClicked = false;
 
 document.addEventListener("click", clicked);
 function clicked(e){
-    
+    var rect = canvas.getBoundingClientRect();
     if (!shouldMove){
             
-        var mouseX = e.clientX;
-        var mouseY = e.clientY;
+        var mouseX = e.clientX - rect.left;
+        var mouseY = e.clientY - rect.top;
 
         xVel = -20;
         yVel = -20; //resetting yVel
