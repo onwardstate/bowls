@@ -1,0 +1,9 @@
+div{
+    text-align: center;
+}
+
+@supports (-webkit-overflow-scrolling: touch) {
+    .cvs{
+        text-align: none;
+    }
+}
