@@ -2,7 +2,7 @@ var canvas = document.getElementById("canvas");
 var context = canvas.getContext('2d');
 var width = 500, height = 500;
 var bracketImg = new Image();
-bracketImg.src = "https://drive.google.com/file/d/13Ee1mCVvwYl0dVj0K47aihn1IrgDh2od/view";
+bracketImg.src = "cfbChart.jpg";
 imgWidth = 4000;
 imgHeight = 4500;
 
