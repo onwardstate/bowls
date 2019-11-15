@@ -1,9 +1,11 @@
-div{
-    text-align: center;
-}
+@supports not (-webkit-overflow-scrolling: touch) {
+    div{
+        text-align: center;
+    }
+  }
 
 @supports (-webkit-overflow-scrolling: touch) {
-    .cvs{
+    div{
         text-align: none;
     }
 }
